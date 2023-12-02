@@ -1,0 +1,60 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#board {
+    height: 450px;
+    width: 450px;
+    background-color: rgb(242, 255, 0);
+    border: 10px solid rgb(0, 0, 0);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hole {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.rtoken {
+    background-color: red;
+}
+
+.btoken {
+    background-color: blue;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 500px) {
+    #board {
+        height: 300px;
+        width: 80%;
+    }
+
+    .hole {
+        height: 40px;
+        width: 40px;
+    }
+}

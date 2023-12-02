@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="loginForm">
+        <h1>Connect Three</h1>
+
+        <div class="player-info">
+            <div class="player-column">
+                <p>Player 1</p>
+                <input type="text" id="Lbox" placeholder="Enter your name:" required>
+                <input type="text" id="Lbox" placeholder="Enter your nickname:" required>
+            </div>
+
+            <div class="player-column">
+                <p>Player 2</p>
+                <input type="text" id="Rbox" placeholder="Enter your name:" required>
+                <input type="text" id="Rbox" placeholder="Enter your nickname:" required>
+            </div>
+        </div>
+
+        <br>
+        <a href="instructions.html">
+        <button type="button" onclick="redirectToGame()">Continue</button></a>
+    </form>
+    <audio id="background-music" loop>
+        <!-- Provide the path to your audio file -->
+        <source src="your-audio-file.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

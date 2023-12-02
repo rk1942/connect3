@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FDE936;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+h2 {
+    max-width: 70%;
+    margin: 20px 0;
+}
+#Start {
+    width: 150px;
+    height: 40px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 500px) {
+    #Start {
+        height: 50px;
+        width: 90%;
+    }
+
+    
+}
